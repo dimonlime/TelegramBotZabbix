@@ -3,9 +3,9 @@ import time
 from pyzabbix import ZabbixAPI, ZabbixAPIException
 from telebot import types
 
-bot = telebot.TeleBot('6318271558:AAFO2-9_y03R_W36AZV3v57CBv_-z17BF80')
+bot = telebot.TeleBot('YOUR_TOKEN')
 
-zabbix_server = 'http://192.168.31.210//zabbix'
+zabbix_server = 'http://YOUR_IP//zabbix'
 zabbix_user = "Admin"
 zabbix_password = "zabbix"
 zapi = None
